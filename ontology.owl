@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:02816053-1258-403c-b4c5-f7a73b03e08a#"
+     xml:base="urn:webprotege:ontology:02816053-1258-403c-b4c5-f7a73b03e08a"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:02816053-1258-403c-b4c5-f7a73b03e08a"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/author -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/author">
+        <rdfs:label xml:lang="en">dc:author</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDedq9wQ1PzO5KRzCzLAiLt -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDedq9wQ1PzO5KRzCzLAiLt">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:author xml:lang="en">author</dc:author>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9FuxlBdYiGFYqwLXuwkAsJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9FuxlBdYiGFYqwLXuwkAsJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCtxZnbF45BJDR1VZJ7z6fp"/>
+        <dc:author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frank Herbert</dc:author>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">712 pages</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paperback</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-6053754794</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hodder Paperback</dc:publisher>
+        <dc:source rdf:resource="https://www.amazon.com.tr/Dune-Frank-Herbert/dp/0340960191/ref=sr_1_1?__mk_tr_TR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=dune+english&amp;qid=1619379022&amp;sr=8-1"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dune</dc:title>
+        <rdfs:label xml:lang="en">ScienceFictionBooks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCo8bpaxbV6Na7wKVTAEgig -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCo8bpaxbV6Na7wKVTAEgig">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCtxZnbF45BJDR1VZJ7z6fp"/>
+        <dc:author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jane Austen</dc:author>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">448 pages</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paperback</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-0141439518</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penguin Classics</dc:publisher>
+        <dc:source rdf:resource="https://www.amazon.com.tr/Penguin-Classic-Prejudice-Jane-Austen/dp/0141439513/ref=sr_1_1?__mk_tr_TR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=pride+and&amp;qid=1619379442&amp;s=books&amp;sr=1-1"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pride and Prejudice</dc:title>
+        <rdfs:label xml:lang="en">RomanceBooks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCtxZnbF45BJDR1VZJ7z6fp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCtxZnbF45BJDR1VZJ7z6fp">
+        <rdfs:label xml:lang="en">books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDEaxvOJBb6yoffI5S5lHFD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDEaxvOJBb6yoffI5S5lHFD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCtxZnbF45BJDR1VZJ7z6fp"/>
+        <dc:author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jared Diamond</dc:author>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">480 pages</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paperback</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-0606412735</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turtleback Books</dc:publisher>
+        <dc:source rdf:resource="https://www.amazon.com.tr/Guns-Germs-Steel-Fates-Societies/dp/0606412735/ref=sr_1_2?__mk_tr_TR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=1BBIQM3U2IV8F&amp;dchild=1&amp;keywords=guns+germs+and+steel&amp;qid=1619378214&amp;s=books&amp;sprefix=guns+germs%2Cstripbooks%2C232&amp;sr=1-2"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guns, Germs, and Steel: The Fates of Human Societies</dc:title>
+        <rdfs:label xml:lang="en">HistoryBooks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RX4QdbJQOcNmqgyPceQvqB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RX4QdbJQOcNmqgyPceQvqB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCtxZnbF45BJDR1VZJ7z6fp"/>
+        <dc:author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J. R. R. Tolkien</dc:author>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">480 pages</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paperback</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-0261102736</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harper Collins</dc:publisher>
+        <dc:source rdf:resource="https://www.amazon.com.tr/Silmarillion-Format-J-R-R-Tolkien/dp/0261102737/ref=sr_1_2?__mk_tr_TR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=silmarillion&amp;qid=1619379949&amp;sr=8-2"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Silmarillion</dc:title>
+        <rdfs:label xml:lang="en">FantasyBooks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rv9pLZXhgvn96ADMWGqPHS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rv9pLZXhgvn96ADMWGqPHS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCtxZnbF45BJDR1VZJ7z6fp"/>
+        <dc:author xml:lang="en">David D. M.D. Burns</dc:author>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">768 pages</dc:description>
+        <dc:format xml:lang="en">Paperback</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789751038760</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher xml:lang="en">HarperCollins</dc:publisher>
+        <dc:source rdf:resource="https://www.amazon.com.tr/Feeling-Good-New-Mood-Therapy/dp/0380810336"/>
+        <dc:title xml:lang="en">Feeling Good : The New Mood Therapy</dc:title>
+        <rdfs:label xml:lang="en">SelfImprovementBooks</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
